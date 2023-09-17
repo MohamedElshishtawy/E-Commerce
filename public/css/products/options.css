@@ -1,0 +1,19 @@
+.size{
+    width: 50px;
+    font-weight: bold;
+}
+
+.table-color, .table-size{
+    display: none;
+    font-size: 13px;
+    border-collapse: collapse;
+    border-style: hidden;
+    text-align: center;
+    & .count{
+        width: 40px;
+    }
+}
+.table-color td , .table-color th 
+,.table-size td , .table-size th{
+    border: 1px solid;
+  }
